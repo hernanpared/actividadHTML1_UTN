@@ -10,7 +10,7 @@ h2 {
 
 h3 {
   font-size: 25px;
-  color: #5fee0d;
+  color: #ee420d;
 }
 
 ul {
@@ -23,8 +23,19 @@ ol {
   font-size: 20px;
 }
 
-p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  color: blue;
+.perfilPersonal {
+  background-color: #f0f0f0; /* Color de fondo suave */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 20px 0; /* Margen superior e inferior */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.imagenPerfil {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px; /* Opcional: si deseas bordes redondeados */
+}
+
+i {
+  color: black;
 }
